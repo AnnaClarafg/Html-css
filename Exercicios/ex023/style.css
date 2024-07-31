@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(255, 145, 0);
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+caption { 
+    color: rgb(252, 162, 46);
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+thead, tfoot {
+    background-color: rgb(253, 196, 122);
+    color: white;
+}
+
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.num {
+    text-align: right;
+}
