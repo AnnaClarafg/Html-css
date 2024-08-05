@@ -9,8 +9,9 @@ h1 {
 }
 
 table {
-    width: 500px;
+    width: 350px;
     border-collapse: collapse;
+    position: relative;
 }
 
 caption { 
@@ -23,6 +24,16 @@ caption {
 thead, tfoot {
     background-color: rgb(253, 196, 122);
     color: white;
+}
+
+thead tr th {
+    position: sticky;
+    top: -1px;
+    background-color:rgb(253, 196, 122) ;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: antiquewhite;
 }
 
 
